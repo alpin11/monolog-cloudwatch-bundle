@@ -33,7 +33,7 @@ entity that controls or is controlled by the legal entity, or is under common co
 existing work.
 
 * **Submitted** - conveyed to a Project via a pull request, commit, issue, or any form of electronic, written, or 
-verbal communication the executive board of the ALPIN 11 GmbH, contributors or maintainers.
+verbal communication with the owners or employees of the ALPIN 11 GmbH, contributors or maintainers.
 
 #### 1. Grant of Copyright License.
 Subject to the terms and conditions of this agreement, You grant to the Projects’ maintainers, contributors, users and 
