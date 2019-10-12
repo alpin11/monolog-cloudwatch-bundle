@@ -1,0 +1,24 @@
+{
+  "name": "alpin11/monolog-cloudwatch-bundle",
+  "description": "Symfony bundle with a Cloudwatch Log Handler for Monolog library",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Hoeck",
+      "email": "d.hoeck@alpin11.at",
+      "role": "Developer"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "maxbanton/cwh": "^1.1",
+    "symfony/monolog-bundle": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "MonologCloudWatch\\": "src/"
+    }
+  }
+}

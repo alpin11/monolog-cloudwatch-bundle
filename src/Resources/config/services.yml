@@ -1,0 +1,23 @@
+services:
+    _defaults:
+        public: true
+
+    monolog_cloud_watch.client:
+        class: MonologCloudWatch\Aws\CloudWatchClient
+        arguments:
+            - '%monolog_cloud_watch.credentials.access_key%'
+            - '%monolog_cloud_watch.credentials.secret_key%'
+            - '%monolog_cloud_watch.region%'
+            - '%monolog_cloud_watch.version%'
+
+    monolog_cloud_watch.handler:
+        class: Maxbanton\Cwh\Handler\CloudWatch
+        arguments:
+            - '@monolog_cloud_watch.client'
+            - '%monolog_cloud_watch.handler.group_name%'
+            - '%monolog_cloud_watch.handler.stream_name%'
+            - '%monolog_cloud_watch.handler.retention_days%'
+            - '%monolog_cloud_watch.handler.batch_size%'
+            - '%monolog_cloud_watch.handler.tags%'
+            - '%monolog_cloud_watch.handler.log_level%'
+
