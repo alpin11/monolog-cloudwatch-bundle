@@ -1,6 +1,14 @@
 {
   "name": "alpin11/monolog-cloudwatch-bundle",
   "description": "Symfony bundle with a Cloudwatch Log Handler for Monolog library",
+  "keywords": [
+    "aws",
+    "cloudwatch",
+    "monolog",
+    "symfony-bundle",
+    "symfony4",
+    "symfony3"
+  ],
   "type": "library",
   "license": "MIT",
   "authors": [

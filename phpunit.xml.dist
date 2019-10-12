@@ -11,7 +11,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Handler Test Suite">
+        <testsuite name="Default Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
