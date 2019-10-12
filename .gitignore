@@ -1,0 +1,10 @@
+
+/.idea/
+/vendor/
+/composer.phar
+/nbproject/
+/puphpet/
+/Vagrantfile
+/.vagrant/
+/coverage/
+/example/
